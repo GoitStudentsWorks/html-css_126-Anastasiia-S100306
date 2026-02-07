@@ -1,6 +1,6 @@
 :root {
-  --main-font: "Roboto", sans-serif;
-  --secondary-font: "Raleway", sans-serif;
+  --main-font: "Quicksand", sans-serif;
+  --secondary-font: "Aboreto", sans-serif;
 
   /* Colors - З макета CoffeeJoy */
   --primary-text-color: #2e2f42;   /* Основний темний */
@@ -29,6 +29,7 @@
 
 body {
   margin: 0;
+  display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
@@ -38,10 +39,10 @@ main {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--secondary-font); /* Raleway для заголовків */
+  font-family: var(--secondary-font); 
   color: var(--primary-text-color);
   margin: 0;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 p {
@@ -63,7 +64,7 @@ a {
 img {
   display: block;
   max-width: 100%;
-  height: auto; /* Для Retina та адаптивності */
+  height: auto; 
 }
 
 button {
