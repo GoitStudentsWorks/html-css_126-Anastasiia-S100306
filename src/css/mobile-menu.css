@@ -22,17 +22,38 @@ visible; pointer-events: auto; } */
   top: 18px;
   left: 16px;
   padding: 0px 10px;
-  /* background-color: #fff; */
 }
 .mobile-menu-close {
   position: absolute;
-  height: 48px;
+  min-height: 48px;
+  min-width: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+
   top: 12px;
   right: 16px;
-  padding: 12px;
+  /* padding: 12px; */
+  background-color: transparent;
 }
-/* .mobile-menu-nav {
-} */
+@media (min-width: 768px) {
+  .mobile-menu-close {
+    display: none;
+  }
+}
+
+.mobile-menu-close:hover,
+.mobile-menu-close:focus {
+  background-color: #c29d84;
+  border-radius: 50%;
+}
 .mobile-nav-items {
   display: flex;
   flex-direction: column;
