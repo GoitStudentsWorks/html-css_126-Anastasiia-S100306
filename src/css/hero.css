@@ -17,6 +17,8 @@
 
 .main-container {
     padding: 108px 32px;
+    width: 256px;
+    padding: 108px 0;
 }
 
 .headline {
@@ -94,6 +96,21 @@
     }
 
 }
+
+@media screen and (min-width: 1440px) {
+    .headline-section {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)),
+            url(../img/fon-desktop1x.jpg);
+    }
+
+    @media (min-resolution: 192dpi) {
+        .headline-section {
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5),
+                    rgba(0, 0, 0, 0.5)),
+                url(../img/fon-desktop2x.jpg);
+        }
+    }
 
 @media screen and (min-width: 1440px) {
     .headline-section {
