@@ -67,6 +67,10 @@
     opacity: 0.5;
 }
 
+.button-learn:active {
+    background: rgba(11, 8, 3, 0.1);
+}
+
 @media screen and (min-width: 768px) {
     .headline-section {
         background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5),
@@ -89,13 +93,6 @@
         padding: 312px 176px 312px 32px;
     }
 
-    .headline {
-        width: 560px;
-    }
-
-    .main-text {
-        width: 560px;
-    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -120,5 +117,6 @@
 
     .headline {
         font-size: 56px;
+        text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     }
 }
