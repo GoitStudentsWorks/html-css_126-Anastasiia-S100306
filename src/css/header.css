@@ -1,64 +1,76 @@
-/* =========================== HEADER =========================== */
-
-.header {
-  /* У макеті хедер має бути просторим */
-  padding: 28px 0;
-  background-color: transparent; /*  колір фону з макету */
+.header-coffee {
+  background-color: #E0CBB4;
 }
 
-.nav {
+.container {
+  margin: 0 0;
+}
+
+.svg-coffee {
+  margin: 18px 0;
+  width: 84px;
+}
+
+.coffee-joy {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-}
-
-.nav-list {
-  display: flex;
   align-items: center;
-  /* У CoffeeJoy великі відступи між пунктами меню */
-  gap: 40px; 
 }
 
-.nav-link {
-  position: relative;
-  /* Використовуй змінні, щоб колір був кавовим/темним, як у дизайні */
-  color: var(--primary-text-color);
-  font-weight: 500;
-  transition: color var(--anim-duration) var(--anim-timing);
+.nav-coffee {
+  display: none;
 }
 
-/* Декоративна лінія (Елемент, що не відповідав макету) */
-.nav-link::after {
-  content: '';
-  position: absolute;
-  /* У макеті лінія стоїть трохи нижче тексту */
-  bottom: -4px; 
-  left: 0;
-  width: 100%;
-  height: 2px; /* У макеті вона тонка
-  
-  /* ЗМІННА: тут має бути золотистий або коричневий колір з макету */
-  background-color: var(--accent-color); 
-  
-  
-  transform: scaleX(0);
-  transition: transform var(--anim-duration) var(--anim-timing);
+.burger-coffee {
+  padding: 0;
+  border: none;
+  background-color: rgba(224, 203, 180, 1);
 }
 
-/* Стан активного посилання та наведення */
-.nav-link:hover,
-.nav-link.active {
-  color: var(--accent-color);
+.burger-icon {
+  display: block;
+  fill: rgba(11, 8, 3, 1);
 }
 
-.nav-link:hover::after,
-.nav-link.active::after {
-  transform: scaleX(1);
+.button {
+  cursor: pointer;
 }
 
-/* Адаптивність (Breakpoints) */
 @media screen and (min-width: 768px) {
-  .header {
-    padding: 32px 0; /* Ще більше простору на планшеті/десктопі */
+  .container {
+    max-width: 768px;
+    padding: 18px 64px;
+  }
+
+  .svg-coffee {
+    margin: 0;
+  }
+
+  .burger-coffee {
+    display: none;
+  }
+
+  .nav-coffee {
+    display: flex;
+  }
+
+  .item-coffee-nav {
+    display: flex;
+    gap: 32px;
+    padding: 6px 0;
+  }
+
+  .link-coffee {
+    color: rgba(11, 8, 3, 1);
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 400;
+    font-family: "Quicksand";
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
   }
 }
