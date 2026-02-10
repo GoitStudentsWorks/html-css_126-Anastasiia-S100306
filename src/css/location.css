@@ -1,7 +1,6 @@
 .location {
   padding: 64px 16px;
 width: 100%;
-height: 100%;
 background: var(--color-scheme-1-background);
 }
 :root {
@@ -48,6 +47,9 @@ background: var(--color-scheme-1-background);
 	--color-scheme-2-accent: var(--color-neutral-darkest);
 	--color-scheme-2-foreground: var(--color-coffee);
 	--color-error-red: #7f1c1c;
+}
+.location-container{
+  max-width: 100%;
 }
 .footer-container{
   max-width: 288px;
