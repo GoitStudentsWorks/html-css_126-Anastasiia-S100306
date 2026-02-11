@@ -28,7 +28,7 @@
     width: 100%;
     text-transform: uppercase;
     font-weight: 400;
-    font-family: "Aboreto";
+    font-family: "Aboreto", sans-serif;
     font-style: normal;
     margin-bottom: 24px;
 }
@@ -66,6 +66,11 @@
 .button-learn:hover {
     box-shadow: 0 1px 2px 0 rgba(11, 8, 3, 0.05), inset 0 -2px 1px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 1px rgba(11, 8, 3, 0.15), inset 0 2px 1px 0 rgba(255, 255, 255, 0.25), inset 0 32px 24px 0 rgba(255, 255, 255, 0.05);
     opacity: 0.5;
+}
+
+.button-learn:active {
+    background: rgba(11, 8, 3, 0.1);
+    color: rgb(11, 8, 3);
 }
 
 @media screen and (min-width: 768px) {
