@@ -26,7 +26,7 @@
     text-align: left;
     text-transform: uppercase;
     font-weight: 400;
-    font-family: "Aboreto";
+    font-family: "Aboreto", sans-serif;
     font-style: normal;
     margin-bottom: 24px;
 }
