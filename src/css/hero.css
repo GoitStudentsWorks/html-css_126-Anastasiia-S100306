@@ -73,11 +73,13 @@
     }
 
 
+
     @media (min-resolution: 192dpi) {
         .headline-section {
             background-image: url(../img/fon-tablet2x.jpg);
         }
     }
+
 
 
     .main-container {
@@ -86,7 +88,7 @@
     }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1440px) {
     .headline-section {
         background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5),
                 rgba(0, 0, 0, 0.5)),
@@ -100,6 +102,7 @@
                 url(../img/fon-desktop2x.jpg);
         }
     }
+
 
 
     .main-container {
