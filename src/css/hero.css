@@ -1,17 +1,14 @@
 .headline-section {
+    background-color: transparent;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)),
-        url(../img/fon-mobile1x.jpg);
+    background-image: url(../img/fon-mobile1x.jpg);
 }
 
 @media (min-resolution: 192dpi) {
     .headline-section {
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5),
-                rgba(0, 0, 0, 0.5)),
-            url(../img/fon-mobile2x.jpg);
+        background-image: url(../img/fon-mobile2x.jpg);
     }
 }
 
@@ -43,7 +40,6 @@
 }
 
 .button-learn {
-    /* margin-bottom: 108px; */
     border-radius: 100px;
     width: 135px;
     height: 44px;
@@ -72,19 +68,15 @@
     color: rgb(11, 8, 3);
 }
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     .headline-section {
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5),
-                rgba(0, 0, 0, 0.5)),
-            url(../img/fon-tablet1x.jpg);
+        background-image: url(../img/fon-tablet1x.jpg);
     }
 
 
     @media (min-resolution: 192dpi) {
         .headline-section {
-            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5),
-                    rgba(0, 0, 0, 0.5)),
-                url(../img/fon-tablet2x.jpg);
+            background-image: url(../img/fon-tablet2x.jpg);
         }
     }
 
@@ -95,7 +87,7 @@
     }
 }
 
-@media screen and (min-width: 1440px) {
+@media only screen and (min-width: 1440px) {
     .headline-section {
         background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5),
                 rgba(0, 0, 0, 0.5)),
