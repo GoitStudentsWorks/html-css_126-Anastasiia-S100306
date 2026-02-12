@@ -50,11 +50,10 @@ background: var(--color-scheme-1-background);
 }
 .location-container{
   max-width: 100%;
+  padding-left: 64px;
+  padding-right: 64px;
 }
-.footer-container{
-  max-width: 288px;
 
-}
 .location-title {
   margin-bottom: 24px;
 font-family: var(--second-family);
@@ -330,4 +329,7 @@ margin-top: 0;
   .contact-row{
     justify-content: flex-start;
   }
+}
+.location .location-contacts li:last-child .contact-row, .location .location-contacts li:last-child .contact-row span{
+  text-decoration: none;
 }
