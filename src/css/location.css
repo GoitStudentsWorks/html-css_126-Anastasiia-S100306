@@ -203,7 +203,7 @@ height: 307px;
 }
 
 /* ====== TABLET ====== */
-@media screen and (min-width: 768px) and (max-width:1440px) {
+@media screen and (min-width: 768px) and (max-width:1439px) {
   .footer{
     padding: 64px 32px;
 width: 100%;
@@ -277,14 +277,14 @@ height: 100%;
    margin-top: 16px;
    gap: 8px;
    align-items: center;
-   align-self: flex-start;
+   align-self: flex-end;
   }
 }
 
 /* ====== DESKTOP ====== */
 @media screen and (min-width: 1440px) {
   .footer-container{
-    max-width: 1200px;
+    max-width: 1440px;
   }
   .location-contacts{
     flex-direction: column;
