@@ -64,7 +64,7 @@
   line-height: 1.5;
   text-align: center;
   color: #0b0803;
-  padding-top: 32px;
+  margin-top: 32px;
   width: 100%;
 }
 
@@ -75,7 +75,7 @@
   line-height: 1.5;
   text-align: center;
   color: #0b0803;
-  padding-top: 8px;
+  margin-top: 8px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -95,11 +95,13 @@
   .quality-page-coffee-item-title {
     max-width: 284px;
     margin: 0 auto;
+    margin-top: 32px;
   }
 
   .quality-page-coffee-item-text {
     max-width: 294px;
     margin: 0 auto;
+    margin-top: 8px;
   }
 
   .card-three {
@@ -109,6 +111,7 @@
   .quality-page-atmosphere-item-text {
     max-width: 440px;
     margin: 0 auto;
+    margin-top: 8px;
   }
 }
 
