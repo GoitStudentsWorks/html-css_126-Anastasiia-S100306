@@ -37,10 +37,6 @@
     padding: 18px 64px;
   }
 
-  .svg-coffee {
-    margin: 0;
-  }
-
   .burger-coffee {
     display: none;
   }
@@ -61,5 +57,14 @@
     line-height: 150%;
     font-weight: 400;
     font-family: "Quicksand";
+  }
+
+  .link-coffee:focus,
+  .link-coffee:hover {
+    opacity: 0.5;
+  }
+
+  .link-coffee:active {
+    opacity: 0.2;
   }
 }
