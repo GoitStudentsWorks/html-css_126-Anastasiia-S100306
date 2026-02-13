@@ -1,5 +1,11 @@
 /* =========================== TESTIMONIALS SECTION =========================== */
- .reviews {
+.testimonials-section{
+  background-color: #E0CBB4;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.reviews {
   background-color: #f1e4d1;
   padding-top: 40px;
  }
@@ -60,14 +66,13 @@
 
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
-  .container{
-    padding: 0 32px;
-  }
+  
   .reviews-list{
     flex-direction: row;
     flex-wrap: wrap;
     gap: 24px;
   }
+
 
   .review-item{
     display: flex;
@@ -89,12 +94,10 @@
 
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1440px) {
-  .container{
-    padding: 0 64px;
-  }
+  
 .reviews-title {
     font-size: 48px;
-    max-width: 416px;
+    max-width: 100%;
 }
 .review-item {
     max-width: 310px;
