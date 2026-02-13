@@ -2,19 +2,15 @@
   background-color: #E0CBB4;
 }
 
-.container {
-  margin: 0 0;
-}
-
 .svg-coffee {
-  margin: 18px 0;
-  width: 84px;
+  padding: 0 10px;
 }
 
 .coffee-joy {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 18px 16px;
 }
 
 .nav-coffee {
@@ -37,8 +33,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
+  .coffee-joy {
     padding: 18px 64px;
   }
 
@@ -66,11 +61,5 @@
     line-height: 150%;
     font-weight: 400;
     font-family: "Quicksand";
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .container {
-    max-width: 1440px;
   }
 }
